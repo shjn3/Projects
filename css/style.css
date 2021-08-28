@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+
+}
+body{
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+
+#root{
+    background-color:aqua;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background: white;
+    height:100vh;
+    padding-top: 100px;
+    display: flex;
+}
+.container.active .row .col-4{
+    pointer-events: all;
+}
+.grid{
+    width: 50%;
+    height:70%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+}
+.row{
+    margin-bottom: 20px;
+    height: 33%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.col-4{
+    border: 1px solid black;
+    margin-right: 10px;
+    background:lawngreen;
+    transition: all .2s ease-out;
+    text-align: center;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    pointer-events: none;
+    cursor: pointer;
+
+}
+.col-4:hover{
+    opacity: .5;
+}
+.col-4:last-child{
+    margin-right: 0;
+}
+.text{
+    flex:1;
+
+}
+.col-12{
+    width: 100%;
+}
+
+
+.btn__start{
+    display: block;
+    font-size: 40px;
+    width: 100%;
+    background: rgb(212, 60, 212);
+    border:rgb(212, 60, 212);
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.btn__start:hover{
+    opacity: .7;
+    transition: all .5s ease-out;
+}
+
+/*overflow*/
+.announcement{
+    display: none;
+    position:absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+}
+.overflow{
+    z-index: 1;
+    position: absolute;
+    background:rgba(0,0,0,.5);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;  
+}
+
+.announcement__text{
+    position: relative;
+    z-index: 2;
+    width: 40vh;
+    background: white;
+    height: 30vh;
+    margin: 200px auto;
+
+}
+#announcement__text{
+    line-height: 38px;
+    text-align:center;
+    font-size: 2rem;
+    padding: 40px 10px 10px 10px;
+    margin-left: 20px;
+
+}
+
+.btn__reset{
+    display: block;
+    margin: 40px auto 0;
+    width: 80%;
+    background: blueviolet;
+    border: blueviolet;
+    color:lightgreen;
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.btn__reset:hover{
+    opacity: .5;
+}
