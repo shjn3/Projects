@@ -9,6 +9,6 @@
 * Form register
 ![image](https://user-images.githubusercontent.com/70001950/133737462-a6eee3a3-0ce1-4014-a8d9-d83e3399e28f.png)
 
-*to do list
+* To do list
 
 ![image](https://user-images.githubusercontent.com/70001950/133737874-016293d0-9820-4dd2-bfbf-017571dbb743.png)
