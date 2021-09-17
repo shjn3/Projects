@@ -1,2 +1,3 @@
 - Project analytics
-![image](https://user-images.githubusercontent.com/70001950/133735344-32292dde-5bc0-4a28-a5a2-e4222fd062ef.png)
+- 
+![image](https://user-images.githubusercontent.com/70001950/133735475-e7d1c6a2-d5ef-4efa-a60d-01aa90f2201d.png)
